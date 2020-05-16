@@ -26,13 +26,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach and .map both do the same thing where they take the arugment and returning the value. The exception is that .forEach returns undefined while .map return transformed element. 
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback is when a function takes a argument and later on is invoked. A higher order function takes another function and calls it to the calling function as arguments.
 
 3. What is closure?
 
+A closure is when a inner function is able to call from the outer function scope.
+
 4. Describe the four rules of the 'this' keyword.
 
+Window/global binding will happen when outside the function.
+implicit binding is simliar to dot notation of objects but uses "this" before the object.
+explicit binding is when you use .call or .apply.
+new binding is when you reference the object in the constructor function.
+
 5. Why do we need super() in an extended class?
+
+We need super to call the parent constructor for the child. When using extended there will be a child and parent. The child would need to use super to inherit the properties of parent.
 
 ### Task 1 - Project Set up
 
